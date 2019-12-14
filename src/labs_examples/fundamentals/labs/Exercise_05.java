@@ -24,6 +24,9 @@ public class Exercise_05 {
         int days = scanner.nextInt();
 
         // write completed code here
+        System.out.println("There are 86400 seconds in 1 day.");
+        int seconds = days * 86400;
 
+        System.out.println("Based on the day(s) you have given, which is " + days + " days, that would be a total of " + seconds + " seconds.");
     }
 }
